@@ -1,0 +1,260 @@
+.form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.btn-primary{
+    padding: 10px;
+    background: #2196f3;
+    color: #fff;
+    border:1px solid transparent;
+}
+.lookup-modal{
+    position: fixed;
+    top: 0;
+    background: rgb(0 0 0 / 48%);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+}
+.lookup-modal .modal-content{
+    max-width: 500px;
+    background: #fff;
+    display: block;
+    margin: 80px auto 0 auto;
+    border-radius: 20px;
+}
+.lookup-modal .modal-content .modal-header, .lookup-modal .modal-content .modal-body, .lookup-modal .modal-content .modal-footer{
+    padding: 12px;
+}
+.lookup-modal .modal-content .modal-footer{
+    text-align: right;
+}
+.lookup-modal .modal-content .modal-header{
+    border-bottom:1px solid#e3e0e0;
+}
+.lookup-modal .modal-content .modal-header *{
+    margin: 0;
+}
+.lookup-modal .modal-body select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.lookup-modal .modal-body select option{
+    border-top: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+.lookup-modal .modal-footer .close-button, .lookup-modal .modal-footer .primary-btn{
+    padding: 8px 20px;
+    min-width: 95px;
+    border-radius: 50px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.lookup-modal .modal-footer .primary-btn{
+    background: #2196f3;
+    margin-right: 10px;
+}
+.address-lookup-wrap{
+    display: flex;
+}
+.address-lookup-wrap~input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 10px 0;
+}
+
+
+.lookup-modal .modal-content .modal-header { 
+    overflow: hidden;
+    padding: 15px 25px;
+    border-radius: 20px 20px 0 0;
+    text-align: left;
+    color: #fff;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    background: -webkit-linear-gradient( 0deg, #6a35ec 0%, rgb(136,92,240) 100%);
+}
+.allAddress-wrap {
+    padding-left: 17px;
+    border-left: 2px solid #0EC779;
+    margin: 20px 0;
+}
+.allAddress-wrap .address-input {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.postCode-Wrap {
+    display: flex;
+}
+.postCode-Wrap .btn-primary
+{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    width: auto;
+    height: 60px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #00f799 0%, #0ca357 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 14px;
+}
+.postCode-Wrap .input-field {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+
+
+
+
+/* iagree_radio */
+.iagree_radio input {
+    display: none;
+  
+}
+.iagree_radio label {
+    position: relative;
+    padding-left: 44px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    padding-top: 0;
+    cursor: pointer;
+    line-height: 26px; 
+    font-weight: normal;
+    text-align: left;
+    color: #0c1a45;
+    margin: 0;
+}
+.iagree_radio label a {
+    text-decoration: underline;
+    color: #4500ff;
+}
+  .iagree_radio input:checked + label:before {
+    border: 2px solid #2BD576;
+}
+.iagree_radio label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 2px solid #cecece;
+} 
+.iagree_radio.form-check {
+    margin-top: 20px;
+}
+.iagree_radio label::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    width: 20px;
+    height: 20px;
+    background: url('../../images/green-tick.svg') no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+.iagree_radio.form-check label {
+    padding-top: 6px;
+}
+.iagree_radio input:checked + label:after {
+    opacity: 1;
+}
+
+
+/* signHere_img */
+.signature_pad_wrapper .canvas_wrapper {
+    border: 2px solid #797979;
+    -webkit-box-shadow: rgba(0, 0, 0, .07) 0 1px 1px, rgba(0, 0, 0, .07) 0 2px 2px, rgba(0, 0, 0, .07) 0 4px 4px, rgba(0, 0, 0, .07) 0 8px 8px, rgba(0, 0, 0, .07) 0 16px 16px;
+    box-shadow: rgba(0, 0, 0, .07) 0 1px 1px, rgba(0, 0, 0, .07) 0 2px 2px, rgba(0, 0, 0, .07) 0 4px 4px, rgba(0, 0, 0, .07) 0 8px 8px, rgba(0, 0, 0, .07) 0 16px 16px;
+    overflow: hidden;
+    border-radius: 17px 17px 0 0;
+    border-bottom: none;
+  }
+  .signature_pad_wrapper .btn-danger {
+    height: 49px;
+    border-radius: 8px;
+    padding-left: 23px;
+    cursor: pointer;
+    padding-right: 23px;
+    background: #de1515;
+    background: -moz-linear-gradient(top, #de1515 0, #aa152c 100%);
+    background: -webkit-linear-gradient(top, #de1515 0, #aa152c 100%);
+    background: linear-gradient(to bottom, #de1515 0, #aa152c 100%);
+    width: 100%;
+    border: 2px solid #480808;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0 0 17px 17px;
+}
+
+.signHere_img {
+    position: absolute;
+    right: -10px;
+    top: -50px;
+    width: 92px;
+    z-index: 999;
+    -webkit-animation: shake 2s infinite alternate;
+    animation: shake 2s infinite alternate;
+}
+.signature_pad_wrapper{
+    position: relative;
+}
+.signatuerImg {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 9px;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 98%;
+    height: auto;
+    border-radius: 17px;
+}
+
+
+@-webkit-keyframes shake {
+    10%, 90% {
+        -webkit-transform: translate3d(-1px, 0, 0);
+        transform: translate3d(-1px, 0, 0) 
+   }
+    20%, 80% {
+        -webkit-transform: translate3d(2px, 0, 0);
+        transform: translate3d(2px, 0, 0) 
+   }
+    30%, 50%, 70% {
+        -webkit-transform: translate3d(-4px, 0, 0);
+        transform: translate3d(-4px, 0, 0) 
+   }
+    40%, 60% {
+        -webkit-transform: translate3d(4px, 0, 0);
+        transform: translate3d(4px, 0, 0) 
+   }
+}
