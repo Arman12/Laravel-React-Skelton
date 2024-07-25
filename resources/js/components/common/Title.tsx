@@ -18,7 +18,6 @@ interface TitleDropdownProps {
 /**
  * Title.
  *
- * All rights Reseverd | Arhamsoft Pvt @2023
  * 
  * @param {Object} props - Component props.
  * @param {string} props.name - Name attribute for the input element.

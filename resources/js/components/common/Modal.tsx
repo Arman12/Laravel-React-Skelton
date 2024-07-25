@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 /**
  * Modal.
  *
- * Author 'Arman Saleem | Ahamd | Arhamsoft'
+ * Author 'Arman Saleem'
  * 
  * @returns {TSX.Element} - TSX representation of the component.
  */

@@ -1,6 +1,5 @@
 /**
 *
-* @Company Arhamsoft Pvt LTD
 * @Author Muhammad Arman Saleem
 * 
 This functional component contains a multi-step form component with individual steps.
